@@ -9,7 +9,8 @@ const Welcome = () => {
       style={{
         background: "linear-gradient(110deg, #22202B 60%, #1F1B25 60%)",
       }}
-      className="grid  md:grid-cols-2 gap-8  justify-items-center items-center bg-gray-800 mx-4 lg:px-32 py-16 md:py-28 lg:mx-24 rounded-3xl"
+      className="grid  md:grid-cols-2 gap-8  justify-items-center items-center
+       bg-gray-800 mx-4 lg:px-32 py-16 md:py-28 lg:mx-24 rounded-3xl"
     >
       <div
         id="left"

@@ -8,12 +8,12 @@ import Something from "../components/Something";
 const Case = () => {
   return (
     <>
-      <div className="flex flex-col items-center gap-12 h-full ">
+      <div className="flex flex-col items-center gap-12 h-full px-6 ">
         <div className="flex flex-col items-center gap-4">
           <p className="bg-gradient-to-r from-[#333139] to-[#27232C] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
             Case study
           </p>
-          <p className="text-6xl font-bold px-80 text-center">
+          <p className="md:text-6xl text-4xl font-bold md:px-80 text-center">
             From idea to a thriving social platform
           </p>
         </div>
