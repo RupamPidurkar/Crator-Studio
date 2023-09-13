@@ -162,9 +162,12 @@ const WorkComp = () => {
               Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
               Vivamus magna justo, lacinia eget sed, convallis at tellus.
             </p>
-            <a href="" className="bg-[#18191F] w-fit px-10 py-4 rounded-full">
+            <Link
+              to="/case"
+              className="bg-[#18191F] w-fit px-10 py-4 rounded-full"
+            >
               Case study
-            </a>
+            </Link>
           </div>
         </div>
         <div className="rounded-3xl bg-[#22212A]">
@@ -175,9 +178,12 @@ const WorkComp = () => {
               Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
               Vivamus magna justo, lacinia eget sed, convallis at tellus.
             </p>
-            <a href="" className="bg-[#18191F] w-fit px-10 py-4 rounded-full">
+            <Link
+              to="/case"
+              className="bg-[#18191F] w-fit px-10 py-4 rounded-full"
+            >
               Case study
-            </a>
+            </Link>
           </div>
         </div>
         <div className="rounded-3xl bg-[#22212A]">
@@ -188,9 +194,12 @@ const WorkComp = () => {
               Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
               Vivamus magna justo, lacinia eget sed, convallis at tellus.
             </p>
-            <a href="" className="bg-[#18191F] w-fit px-10 py-4 rounded-full">
+            <Link
+              to="/case"
+              className="bg-[#18191F] w-fit px-10 py-4 rounded-full"
+            >
               Case study
-            </a>
+            </Link>
           </div>
         </div>
         <div className="rounded-3xl bg-[#22212A]">
@@ -201,9 +210,12 @@ const WorkComp = () => {
               Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
               Vivamus magna justo, lacinia eget sed, convallis at tellus.
             </p>
-            <a href="" className="bg-[#18191F] w-fit px-10 py-4 rounded-full">
+            <Link
+              to="/case"
+              className="bg-[#18191F] w-fit px-10 py-4 rounded-full"
+            >
               Case study
-            </a>
+            </Link>
           </div>
         </div>
       </div>

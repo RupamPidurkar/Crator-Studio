@@ -8,16 +8,16 @@ import Something from "../components/Something";
 const Case = () => {
   return (
     <>
-      <div className="flex flex-col items-center gap-12 h-full w-screen px-4">
+      <div className="flex flex-col items-center gap-12 h-full ">
         <div className="flex flex-col items-center gap-4">
           <p className="bg-gradient-to-r from-[#333139] to-[#27232C] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
             Case study
           </p>
-          <p className="text-4xl md:text-6xl font-bold md:px-80 text-center">
+          <p className="text-6xl font-bold px-80 text-center">
             From idea to a thriving social platform
           </p>
         </div>
-        <div className="flex flex-col md:flex-row items-center gap-16 px-24">
+        <div className="flex flex-col md:flex-row items-center gap-16 md:px-24">
           <div className="flex flex-col items-center text-center gap-4">
             <div className="bg-gradient-to-r from-[#333139] to-[#24202A] w-fit rounded-2xl">
               <img src={Challenge} alt="" className="h-16  p-4  " />
@@ -49,18 +49,24 @@ const Case = () => {
             </p>
           </div>
         </div>
-        <div className="rounded-2xl w-80%  flex items-center px-24 py-24">
+
+        {/************************** */}
+
+        <div className="rounded-2xl md:w-80%  flex items-center md:px-24 py-24">
           <img
             src={Nedia}
             alt=""
-            className="w-full  object-cover rounded-3xl "
+            className="md:w-full  object-cover rounded-3xl "
           />
         </div>
 
         {/********************** */}
 
-        <div className="flex flex-col gap-4 items-center text-center md:px-64 font-medium">
-          <p className="bg-gradient-to-r from-[#333139] to-[#27232C] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
+        <div className="flex flex-col gap-4 items-center text-center px-64 font-medium">
+          <p
+            className="bg-gradient-to-r from-[#333139] to-[#27232C] w-fit px-6 py-2 
+          rounded-tl-full  rounded-r-full "
+          >
             About the project
           </p>
           <p className="text-4xl">
@@ -79,7 +85,7 @@ const Case = () => {
             background: "linear-gradient(110deg, #22202B 60%, #1F1B25 60%)",
           }}
         >
-          <div className="flex flex-col gap-8 items-center text-center  ">
+          <div className="flex flex-col gap-8 items-center text-center md:px-24 ">
             <p
               className="bg-gradient-to-r bg-[#18191F] w-fit px-6 py-2 
             rounded-tl-full  rounded-r-full "
@@ -87,32 +93,30 @@ const Case = () => {
               Key status
             </p>
             <p className="text-5xl font-bold">
-              Going above and beyond our clients <br />
-              expectations.
+              Going above and beyond our clients expectations.
             </p>
-            <p className="text-2xl text-[#C2C7DC] px-24">
+            <p className="text-2xl text-[#C2C7DC]">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Repellendus repellat <br />
-              laudantium.
+              Repellendus repellat laudantium.
             </p>
           </div>
 
-          <div className="flex flex-col md:flex-row items-center gap-24 md:gap-64 md:px-24">
-            <div className="flex gap-4 flex-col items-center">
+          <div className="flex flex-col md:flex-row items-center gap-4 md:gap-44 md:px-24">
+            <div className="flex flex-col items-center">
               <p className="text-6xl font-extrabold">$2.1m</p>
-              <p className="text-2xl text-[#C2C7DC]">
+              <p className="text-xl text-[#C2C7DC]">
                 Additional revenue (2021)
               </p>
             </div>
-            <div className="flex gap-4 flex-col items-center">
+            <div className="flex flex-col items-center">
               <p className="text-6xl font-extrabold">12m</p>
-              <p className="text-2xl text-[#C2C7DC]">
+              <p className="text-xl text-[#C2C7DC]">
                 Social interactions a month
               </p>
             </div>
-            <div className="flex gap-4 flex-col items-center">
+            <div className="flex flex-col items-center">
               <p className="text-6xl font-extrabold">300k</p>
-              <p className="text-2xl text-[#C2C7DC]">Unique monthly visitors</p>
+              <p className="text-xl text-[#C2C7DC]">Unique monthly visitors</p>
             </div>
           </div>
           <p></p>
