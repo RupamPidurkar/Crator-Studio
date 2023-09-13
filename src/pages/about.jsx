@@ -1,5 +1,10 @@
 import React from "react";
 import img1 from "../assets/team.webp";
+import img2 from "../assets/values.webp";
+import img3 from "../assets/security.png";
+import img4 from "../assets/bright.png";
+import Testimonials from "../components/Testimonials";
+import Something from "../components/Something";
 const About = () => {
   return (
     <div>
@@ -8,17 +13,78 @@ const About = () => {
           <p className="bg-gradient-to-r from-[#333139] to-[#27232C] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
             About us
           </p>
-          <p className="md:text-6xl text-4xl font-bold md:px-80 text-center">
+          <p className="md:text-6xl text-4xl font-bold px-4 lg:px-80 text-center">
             A small creative team excited to create beautiful things
           </p>
-          <p className="text-xl text-[#C2C7DC]">
-            Born out of a shared passion for design and innovation, we're a
+          <p className="text-xl text-[#C2C7DC] mx-16 lg:mx-96 text-center">
+            Born out of a shared passion for design and innovation, {`we're`} a
             dedicated team committed to turning visions into impactful digital
             realities.
           </p>
         </div>
-        <img src={img1} alt="" className="rounded-3xl" />
+        <img
+          src={img1}
+          alt=""
+          className="rounded-3xl px-4 lg:px-0 object-cover"
+        />
       </div>
+
+      {/****************Vision****************** */}
+
+      <div className="flex flex-col md:flex-row gap-6 items-center px-4 md:px-28 py-12 ">
+        <div className="flex flex-col justify-between gap-10">
+          <p className="bg-gradient-to-r from-[#333139] to-[#27232C] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
+            Our vision
+          </p>
+          <p className="md:text-6xl text-4xl font-bold  ">
+            We believe in the power of creative ideas
+          </p>
+          <p className="text-2xl text-[#C2C7DC]">
+            In the heart of our company lies a strong belief in the
+            transformative power of ideas. Leveraging innovation and
+            originality, we aim to deliver results that exceed expectations.
+          </p>
+
+          {/***************************** */}
+
+          <span className="flex flex-col md:flex-row">
+            <div>
+              <span className="flex gap-4 items-center">
+                <img
+                  src={img3}
+                  alt=""
+                  className="h-12 p-2 rounded-full bg-gradient-to-r from-[#333139] to-[#27232C]"
+                />
+                <p className="text-xl font-bold">Full transparency</p>
+              </span>
+              <p className="text-xl text-[#C2C7DC]">
+                Trust is key; we uphold honesty. Every step is communicated for
+                clarity.
+              </p>
+            </div>
+            <div>
+              <span className="flex  gap-4 items-center">
+                <img
+                  src={img4}
+                  alt=""
+                  className="h-12 p-2 rounded-full bg-gradient-to-r from-[#333139] to-[#27232C]"
+                />
+                <p className="text-xl font-bold">Product Mindset</p>
+              </span>
+              <p className="text-xl text-[#C2C7DC]">
+                Our focus: user-centric, engaging, and valuable products with
+                purpose.
+              </p>
+            </div>
+          </span>
+        </div>
+
+        <div>
+          <img src={img2} alt="" className="rounded-3xl" />
+        </div>
+      </div>
+      <Testimonials />
+      <Something />
     </div>
   );
 };
