@@ -6,7 +6,6 @@ import Wedo from "../components/Wedo";
 import Process from "../components/Process";
 import Work from "../components/Work";
 import Testimonials from "../components/Testimonials";
-import Something from "../components/Something";
 
 const Home = () => {
   return (
@@ -17,7 +16,6 @@ const Home = () => {
       <Process />
       <Work />
       <Testimonials />
-      <Something />
     </>
   );
 };

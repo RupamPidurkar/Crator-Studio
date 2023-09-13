@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Something = () => {
   return (
-    <div className=" bg-[#1E1A25] py-28">
+    <div className="bg-inherit py-28">
       <div
         className="flex flex-col md:flex-row justify-between items-center md:mx-28 px-6 md:px-16 py-12 rounded-3xl gap-10 md:gap-0"
         style={{

@@ -4,10 +4,13 @@ import Results from "../assets/idea.png";
 import Service from "../assets/Services.png";
 import Nedia from "../assets/Nedia.webp";
 import Something from "../components/Something";
+import img1 from "../assets/case-img-1.webp";
+import img2 from "../assets/case-img-2.webp";
+import img3 from "../assets/case-img-3.webp";
 
 const Case = () => {
   return (
-    <>
+    <div className="bg-[#18181E]">
       <div className="flex flex-col items-center gap-12 h-full px-6 ">
         <div className="flex flex-col items-center gap-4">
           <p className="bg-gradient-to-r from-[#333139] to-[#27232C] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
@@ -119,11 +122,171 @@ const Case = () => {
               <p className="text-xl text-[#C2C7DC]">Unique monthly visitors</p>
             </div>
           </div>
-          <p></p>
+          <a href="#">Learn more</a>
+        </div>
+
+        {/******************************************************************** */}
+
+        <div className="flex flex-col   mt-24">
+          <div className="flex flex-col items-center gap-6 ">
+            <p
+              className="bg-gradient-to-r from-[#333139] to-[#27232C] 
+            w-fit px-6 py-2 rounded-tl-full  rounded-r-full "
+            >
+              The details
+            </p>
+            <p className="md:text-6xl text-4xl font-bold md:px-80 text-center">
+              Taking a closer look
+            </p>
+            <p className="md:text-2xl text-xl text-[#C2C7DC] md:px-72 text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              sapien massa, convallis a pellentesque nec, egestas non nisi.
+            </p>
+          </div>
+          {/*************************** */}
+          <div className="hidden md:flex flex-col gap-12 my-20">
+            <div className="flex justify-between gap-12 items-center px-24">
+              <div className="flex flex-col gap-6 flex-[0.5]">
+                <p
+                  className="bg-gradient-to-r from-[#333139] to-[#27232C] 
+                w-fit px-6 py-2 rounded-tl-full  rounded-r-full "
+                >
+                  User Focused
+                </p>
+                <p className="md:text-5xl text-xl font-bold ">
+                  How we increased user engagement
+                </p>
+                <p className=" text-[18px] text-[#C2C7DC] ">
+                  Anim aute id magna aliqua ad ad non deserunt sunt. qui irure
+                  qui lorem cupidatat commodo. elit sunt amet fugiat veniam
+                  occaecat fugiat aliqua. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit
+                </p>
+              </div>
+              <div className="flex-[0.5]">
+                <img src={img1} alt="" className="w-full rounded-3xl" />
+              </div>
+            </div>
+            <div className="flex justify-between gap-12 items-center px-24">
+              <div className="flex-[0.5] ">
+                <img src={img2} alt="" className="w-full rounded-3xl" />
+              </div>
+              <div className="flex flex-col gap-6 flex-[0.5]">
+                <p
+                  className="bg-gradient-to-r from-[#333139] to-[#27232C] 
+                w-fit px-6 py-2 rounded-tl-full  rounded-r-full "
+                >
+                  Performance
+                </p>
+                <p className="md:text-5xl text-xl font-bold ">
+                  How we improved website speed by 70%
+                </p>
+                <p className=" text-[18px] text-[#C2C7DC] ">
+                  Anim aute id magna aliqua ad ad non deserunt sunt. qui irure
+                  qui lorem cupidatat commodo. elit sunt amet fugiat veniam
+                  occaecat fugiat aliqua. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-between gap-12 items-center px-24">
+              <div className="flex flex-col gap-6 flex-[0.5]">
+                <p
+                  className="bg-gradient-to-r from-[#333139] to-[#27232C] 
+                w-fit px-6 py-2 rounded-tl-full  rounded-r-full "
+                >
+                  Product growth
+                </p>
+                <p className="md:text-5xl text-xl font-bold ">
+                  How we achieved 10x growth in revenue
+                </p>
+                <p className=" text-[18px] text-[#C2C7DC] ">
+                  Anim aute id magna aliqua ad ad non deserunt sunt. qui irure
+                  qui lorem cupidatat commodo. elit sunt amet fugiat veniam
+                  occaecat fugiat aliqua. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit
+                </p>
+              </div>
+              <div className="flex-[0.5] ">
+                <img src={img3} alt="" className="w-full rounded-3xl" />
+              </div>
+            </div>
+          </div>
+          {/*************************MOBILE********************************* */}
+          <div className="my-12 flex flex-col gap-8">
+            <div className="flex flex-col gap-6">
+              <div className="flex flex-col gap-4 flex-[0.5]">
+                <p
+                  className="bg-gradient-to-r from-[#333139] to-[#27232C] 
+            w-fit px-6 py-2 rounded-tl-full  rounded-r-full "
+                >
+                  User focused
+                </p>
+                <p className="text-2xl font-bold ">
+                  How we increased user engagement
+                </p>
+                <p className=" text-[19.9px] text-[#C2C7DC] ">
+                  Anim aute id magna aliqua ad ad non deserunt sunt. qui irure
+                  qui lorem cupidatat commodo. elit sunt amet fugiat veniam
+                  occaecat fugiat aliqua. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit
+                </p>
+              </div>
+              <div className="flex-[0.5] ">
+                <img src={img1} alt="" className="w-full rounded-3xl" />
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-6">
+              <div className="flex flex-col gap-4 flex-[0.5]">
+                <p
+                  className="bg-gradient-to-r from-[#333139] to-[#27232C] 
+          w-fit px-6 py-2 rounded-tl-full  rounded-r-full "
+                >
+                  Performance
+                </p>
+                <p className="text-2xl font-bold ">
+                  How we improved website speed by 70%
+                </p>
+                <p className=" text-[19.9px] text-[#C2C7DC] ">
+                  Anim aute id magna aliqua ad ad non deserunt sunt. qui irure
+                  qui lorem cupidatat commodo. elit sunt amet fugiat veniam
+                  occaecat fugiat aliqua. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit
+                </p>
+              </div>
+              <div className="flex-[0.5] ">
+                <img src={img2} alt="" className="w-full rounded-3xl" />
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-6">
+              <div className="flex flex-col gap-4 flex-[0.5]">
+                <p
+                  className="bg-gradient-to-r from-[#333139] to-[#27232C] 
+        w-fit px-6 py-2 rounded-tl-full  rounded-r-full "
+                >
+                  Product growth
+                </p>
+                <p className="text-2xl font-bold ">
+                  How we achieved 10x growth in revenue
+                </p>
+                <p className=" text-[19.9px] text-[#C2C7DC] ">
+                  Anim aute id magna aliqua ad ad non deserunt sunt. qui irure
+                  qui lorem cupidatat commodo. elit sunt amet fugiat veniam
+                  occaecat fugiat aliqua. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit
+                </p>
+              </div>
+              <div className="flex-[0.5] ">
+                <img src={img3} alt="" className="w-full rounded-3xl" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <Something />
-    </>
+    </div>
   );
 };
 
