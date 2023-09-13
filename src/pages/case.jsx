@@ -92,30 +92,30 @@ const Case = () => {
             >
               Key status
             </p>
-            <p className="text-5xl font-bold">
+            <p className="md:text-5xl text-3xl font-bold">
               Going above and beyond our clients expectations.
             </p>
-            <p className="text-2xl text-[#C2C7DC]">
+            <p className="md:text-2xl text-xl text-[#C2C7DC]">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Repellendus repellat laudantium.
             </p>
           </div>
 
-          <div className="flex flex-col md:flex-row items-center gap-4 md:gap-44 md:px-24">
-            <div className="flex flex-col items-center">
-              <p className="text-6xl font-extrabold">$2.1m</p>
+          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-44 md:px-24">
+            <div className="flex gap-4 flex-col items-center">
+              <p className="text-5xl md:text-6xl font-extrabold">$2.1m</p>
               <p className="text-xl text-[#C2C7DC]">
                 Additional revenue (2021)
               </p>
             </div>
-            <div className="flex flex-col items-center">
-              <p className="text-6xl font-extrabold">12m</p>
+            <div className="flex gap-4 flex-col items-center">
+              <p className="text-5xl md:text-6xl font-extrabold">12m</p>
               <p className="text-xl text-[#C2C7DC]">
                 Social interactions a month
               </p>
             </div>
-            <div className="flex flex-col items-center">
-              <p className="text-6xl font-extrabold">300k</p>
+            <div className="flex gap-4 flex-col items-center">
+              <p className="text-5xl md:text-6xl font-extrabold">300k</p>
               <p className="text-xl text-[#C2C7DC]">Unique monthly visitors</p>
             </div>
           </div>
