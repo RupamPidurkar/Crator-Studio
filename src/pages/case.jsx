@@ -62,14 +62,14 @@ const Case = () => {
 
         {/********************** */}
 
-        <div className="flex flex-col gap-4 items-center text-center px-64 font-medium">
+        <div className="flex flex-col gap-4 items-center text-center md:px-64 font-medium">
           <p
             className="bg-gradient-to-r from-[#333139] to-[#27232C] w-fit px-6 py-2 
           rounded-tl-full  rounded-r-full "
           >
             About the project
           </p>
-          <p className="text-4xl">
+          <p className="md:text-4xl">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eius
             mod tempor incididunt ut labore et. Ad cum decore expetenda
             dissentiet, civibus patrioque referrentur id nec, ei eam simul
