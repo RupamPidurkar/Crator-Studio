@@ -2,7 +2,7 @@ import React from "react";
 import Nedia from "../assets/Nedia.webp";
 import Pantone from "../assets/Pantone.webp";
 import JBL from "../assets/JBL.webp";
-// import TikTok from "../assets/Tiktok.webp";
+import TikTok from "../assets/TikTok.webp";
 import { Link } from "react-router-dom";
 const WorkComp = () => {
   return (
@@ -122,7 +122,7 @@ const WorkComp = () => {
 
         <div className="h-screen relative hidden md:block">
           <img
-            // src={TikTok}
+            src={TikTok}
             alt=""
             className="w-[90%] h-[80%] left-[10%] absolute object-cover rounded-3xl z-0"
           />
