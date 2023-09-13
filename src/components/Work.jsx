@@ -194,7 +194,7 @@ const WorkComp = () => {
           </div>
         </div>
         <div className="rounded-3xl bg-[#22212A]">
-          <img src="src\assets\tiktok.webp" alt="" className="rounded-t-3xl" />
+          <img src="src\assets\TikTok.webp" alt="" className="rounded-t-3xl" />
           <div className="px-4 py-6 flex flex-col justify-between gap-4">
             <p className="text-2xl font-bold">Nedia</p>
             <p className="text-[#C2C7DC]">
