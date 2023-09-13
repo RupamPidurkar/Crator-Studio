@@ -155,7 +155,7 @@ const WorkComp = () => {
 
       <div className="px-4 my-8 flex flex-col gap-8 md:hidden">
         <div className="rounded-3xl bg-[#22212A]">
-          <img src="src\assets\Nedia.webp" alt="" className="rounded-t-3xl" />
+          <img src={Nedia} alt="" className="rounded-t-3xl" />
           <div className="px-4 py-6 flex flex-col justify-between gap-4">
             <p className="text-2xl font-bold">Nedia</p>
             <p className="text-[#C2C7DC]">
@@ -168,7 +168,7 @@ const WorkComp = () => {
           </div>
         </div>
         <div className="rounded-3xl bg-[#22212A]">
-          <img src="src\assets\Pantone.webp" alt="" className="rounded-t-3xl" />
+          <img src={Pantone} alt="" className="rounded-t-3xl" />
           <div className="px-4 py-6 flex flex-col justify-between gap-4">
             <p className="text-2xl font-bold">Nedia</p>
             <p className="text-[#C2C7DC]">
@@ -181,7 +181,7 @@ const WorkComp = () => {
           </div>
         </div>
         <div className="rounded-3xl bg-[#22212A]">
-          <img src="src\assets\JBL.webp" alt="" className="rounded-t-3xl" />
+          <img src={JBL} alt="" className="rounded-t-3xl" />
           <div className="px-4 py-6 flex flex-col justify-between gap-4">
             <p className="text-2xl font-bold">Nedia</p>
             <p className="text-[#C2C7DC]">
@@ -194,7 +194,7 @@ const WorkComp = () => {
           </div>
         </div>
         <div className="rounded-3xl bg-[#22212A]">
-          <img src="src\assets\TikTok.webp" alt="" className="rounded-t-3xl" />
+          <img src={TikTok} alt="" className="rounded-t-3xl" />
           <div className="px-4 py-6 flex flex-col justify-between gap-4">
             <p className="text-2xl font-bold">Nedia</p>
             <p className="text-[#C2C7DC]">
