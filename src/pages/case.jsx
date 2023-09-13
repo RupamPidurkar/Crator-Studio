@@ -213,7 +213,7 @@ const Case = () => {
             </div>
           </div>
           {/*************************MOBILE********************************* */}
-          <div className="my-12 flex flex-col gap-8">
+          <div className="my-12 md:hidden flex flex-col gap-8">
             <div className="flex flex-col gap-6">
               <div className="flex flex-col gap-4 flex-[0.5]">
                 <p
