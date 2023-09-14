@@ -6,13 +6,7 @@ import TikTok from "../assets/TikTok.webp";
 import { Link } from "react-router-dom";
 const WorkComp = () => {
   return (
-    <div
-      id="work"
-      className="md:mt-24 md:px-28 py-32"
-      style={{
-        background: "linear-gradient(-8deg, #18191F 5%, #1E1A25 0%)",
-      }}
-    >
+    <div id="work" className="md:px-28 md:py-12 h-full ">
       <div className="flex flex-col gap-6 items-center text-center px-4 md:px-60">
         <p className="bg-gradient-to-r  from-[#333139] to-[#27232C] w-fit px-6 py-2 rounded-tl-2xl  rounded-r-2xl ">
           Our work
