@@ -9,7 +9,7 @@ const Wedo = () => {
   return (
     <div
       id="what-we-do"
-      className="bg-[#1E1A25] pb-72"
+      className="bg-[#1E1A25] md:pb-72"
       style={{
         background: "linear-gradient(-8deg,#18191F 20%,  #1E1A25 0%)",
       }}
