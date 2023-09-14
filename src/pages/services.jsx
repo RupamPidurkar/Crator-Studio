@@ -118,10 +118,12 @@ const Services = () => {
             </div>
           </div>
         </div>
+
         {/**************************Mobile*************************** */}
-        <div className="md:hidden flex items-center flex-col pb-6">
-          <div>
-            <div className="flex-[0.5] flex flex-col  gap-4 pb-6">
+
+        <div className="md:hidden flex items-center flex-col pb-6 gap-6">
+          <div className="flex flex-col gap-4">
+            <div className="flex-[0.5] flex flex-col gap-4 pb-6">
               <p className="bg-gradient-to-r  from-[#27232C] to-[#333139] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
                 Our services
               </p>
@@ -148,7 +150,7 @@ const Services = () => {
               />
             </div>
           </div>
-          <div>
+          <div className="flex flex-col gap-4">
             <div className="flex-[0.5] flex flex-col items-center gap-8">
               <p className="bg-gradient-to-r  from-[#27232C] to-[#333139] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
                 Product development
@@ -168,7 +170,7 @@ const Services = () => {
               />
             </div>
           </div>
-          <div>
+          <div className="flex flex-col gap-6">
             <div className="flex-[0.5] flex flex-col items-center gap-8">
               <p className="bg-gradient-to-r  from-[#27232C] to-[#333139] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
                 Design
@@ -191,7 +193,7 @@ const Services = () => {
               />
             </div>
           </div>
-          <div>
+          <div className="flex flex-col gap-6">
             <div className="flex-[0.5] flex flex-col items-center gap-8">
               <p className="bg-gradient-to-r  from-[#27232C] to-[#333139] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
                 Optimization

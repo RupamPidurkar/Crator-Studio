@@ -73,7 +73,10 @@ const Letstalk = () => {
 
       {/********************************************************** */}
 
-      <div className="flex flex-col items-center justify-center bg-[#23202A] h-full lg:w-1/2 px-10  lg:px-20 py-12 rounded-3xl">
+      <div
+        className="flex flex-col items-center justify-center bg-[#23202A] h-full 
+      lg:w-1/2 w-full px-10  lg:px-20 py-12 rounded-3xl"
+      >
         <form action="#" className="flex flex-col gap-6 w-full justify-center">
           <span className="flex flex-col gap-2">
             <label htmlFor="username">Name *</label>
