@@ -7,7 +7,7 @@ import img4 from "../assets/bright.png";
 import img6 from "../assets/person.png";
 import img7 from "../assets/telephone.png";
 import Testimonials from "../components/Testimonials";
-import Something from "../components/Something";
+
 const About = () => {
   return (
     <div>
@@ -90,10 +90,10 @@ const About = () => {
       {/**************************************Handbook**************************************************** */}
 
       <div className="flex flex-col md:flex-row gap-14 items-center px-4 md:px-28 py-12 ">
-        <div>
+        <div className="md:order-1 order-2">
           <img src={img5} alt="" className="rounded-3xl" />
         </div>
-        <div className="flex flex-col justify-between gap-10">
+        <div className="flex flex-col justify-between gap-10 md:order-2 order-1">
           <p className="bg-gradient-to-r from-[#333139] to-[#27232C] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
             Our handbook
           </p>
@@ -109,13 +109,18 @@ const About = () => {
           {/***************************** */}
 
           <span className="flex flex-col md:flex-row">
-            <div>
-              <span className="flex gap-4 items-center">
-                <img
-                  src={img6}
-                  alt=""
-                  className="h-12 p-2 rounded-full bg-gradient-to-r from-[#333139] to-[#27232C]"
-                />
+            <div className="flex flex-col gap-4">
+              <span className="flex gap-6 items-center">
+                <div
+                  href=""
+                  className="h-12 bg-[#22212A]  rounded-2xl w-12 p-2"
+                >
+                  <img
+                    src={img6}
+                    alt=""
+                    className="w-full h-full object-contain "
+                  />
+                </div>
                 <p className="text-xl font-bold">User focused</p>
               </span>
               <p className="text-xl text-[#C2C7DC]">
@@ -123,13 +128,18 @@ const About = () => {
                 clarity.
               </p>
             </div>
-            <div>
-              <span className="flex  gap-4 items-center">
-                <img
-                  src={img7}
-                  alt=""
-                  className="h-12 p-2 rounded-full bg-gradient-to-r from-[#333139] to-[#27232C]"
-                />
+            <div className="flex flex-col gap-4">
+              <span className="flex  gap-6 items-center">
+                <div
+                  href=""
+                  className="h-12 bg-[#22212A]  rounded-2xl w-12 p-2"
+                >
+                  <img
+                    src={img7}
+                    alt=""
+                    className="w-full h-full object-contain "
+                  />
+                </div>
                 <p className="text-xl font-bold">Clear communication</p>
               </span>
               <p className="text-xl text-[#C2C7DC]">
@@ -141,7 +151,6 @@ const About = () => {
         </div>
       </div>
       <Testimonials />
-      <Something />
     </div>
   );
 };
