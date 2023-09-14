@@ -10,7 +10,7 @@ const WorkComp = () => {
       id="work"
       className="md:mt-24 md:px-28 py-32"
       style={{
-        background: "linear-gradient(-8deg, #1E1A25 5%, #18191F 0%)",
+        background: "linear-gradient(-8deg, #18191F 5%, #1E1A25 0%)",
       }}
     >
       <div className="flex flex-col gap-6 items-center text-center px-4 md:px-60">

@@ -4,7 +4,7 @@ import Bright from "../assets/bright.png";
 import Rocket from "../assets/rocket.png";
 const Process = () => {
   return (
-    <div className="flex flex-col items-center gap-8 px-4 md:px-28">
+    <div className="flex flex-col items-center gap-8 px-4 md:px-28 pb-">
       <div className="flex flex-col items-center gap-4 text-center md:mx-[260px]">
         <p className="bg-gradient-to-r  from-[#333139] to-[#27232C] w-fit px-6 py-2 rounded-tl-2xl  rounded-r-2xl ">
           Our process

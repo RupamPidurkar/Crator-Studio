@@ -1,5 +1,5 @@
 import React from "react";
-import Wedo from "../components/Wedo";
+
 import img1 from "../assets/hero-services-01.webp";
 import img2 from "../assets/hero-services-02.webp";
 import img3 from "../assets/features-alternating-simple-01.webp";
@@ -8,10 +8,12 @@ import img5 from "../assets/features-alternating-simple-03.webp";
 import { Link } from "react-router-dom";
 import Process from "../components/Process";
 import Something from "../components/Something";
+import Weoffer from "../components/weoffer";
+import Approach from "../components/approach";
 
 const Services = () => {
   return (
-    <div className="px-4 py-4 lg:px-28">
+    <div className="px-4 py-4 lg:px-24">
       {/***************************************** */}
       <div className="">
         <div className="hidden md:flex flex-col  gap-16 pb-12">
@@ -210,8 +212,10 @@ const Services = () => {
             </div>
           </div>
         </div>
+        <Weoffer />
+        <Approach />
         <Process />
-        <Something />;
+        <Something />
       </div>
     </div>
   );

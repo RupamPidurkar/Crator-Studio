@@ -7,11 +7,19 @@ import img4 from "../assets/bright.png";
 import img6 from "../assets/person.png";
 import img7 from "../assets/telephone.png";
 import Testimonials from "../components/Testimonials";
+import Values from "../components/Values";
+import Team from "../components/Team";
 
 const About = () => {
   return (
     <div>
-      <div id="top" className="flex flex-col gap-12 items-center">
+      <div
+        style={{
+          background: "linear-gradient(4deg,#1E1A25 10%, #18191F 0%)",
+        }}
+        id="top"
+        className="flex flex-col gap-12 items-center pb-52"
+      >
         <div className="flex flex-col items-center gap-4">
           <p className="bg-gradient-to-r from-[#333139] to-[#27232C] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
             About us
@@ -34,7 +42,7 @@ const About = () => {
 
       {/****************Vision****************** */}
 
-      <div className="flex flex-col md:flex-row gap-14 items-center px-4 md:px-28 py-12 ">
+      <div className="bg-[#1E1A25] flex flex-col md:flex-row gap-14 items-center px-4 md:px-28 py-12 ">
         <div className="flex flex-col justify-between gap-10">
           <p className="bg-gradient-to-r from-[#333139] to-[#27232C] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
             Our vision
@@ -89,7 +97,12 @@ const About = () => {
 
       {/**************************************Handbook**************************************************** */}
 
-      <div className="flex flex-col md:flex-row gap-14 items-center px-4 md:px-28 py-12 ">
+      <div
+        style={{
+          background: "linear-gradient(-4deg,#18191F 10%, #1E1A25 0%)",
+        }}
+        className="flex flex-col md:flex-row gap-14 items-center px-4 md:px-28 pt-12 pb-24 "
+      >
         <div className="md:order-1 order-2">
           <img src={img5} alt="" className="rounded-3xl" />
         </div>
@@ -150,6 +163,8 @@ const About = () => {
           </span>
         </div>
       </div>
+      <Values />
+      <Team />
       <Testimonials />
     </div>
   );

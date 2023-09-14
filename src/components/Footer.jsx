@@ -1,6 +1,6 @@
 import React from "react";
 import Insta from "../assets/instagram.png";
-import FB from "../assets/facebook.png";
+import FB from "../assets/facebook 1.png";
 import Twitter from "../assets/twitter.png";
 const Footer = () => {
   return (

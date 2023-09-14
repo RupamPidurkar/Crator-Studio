@@ -6,16 +6,19 @@ import img4 from "../assets/Katy Perry 4.webp";
 import Something from "./Something";
 const Testimonials = () => {
   return (
-    <div className="bg-[#1E1A25]">
+    <div className="bg-[#18191F]">
       <div className=" py-8 flex flex-col items-center gap-12">
-        <div className="flex flex-col items-center gap-8 mx-[30%]  text-center">
-          <p className="bg-gradient-to-r  from-[#27232C] to-[#333139] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
+        <div className="flex flex-col items-center gap-8 md:mx-[30%]  text-center">
+          <p
+            className="bg-gradient-to-r  from-[#27232C] to-[#333139] w-fit 
+          px-6 py-2 rounded-tl-full  rounded-r-full "
+          >
             Testimonials
           </p>
           <p className="md:text-[54px] text-[30px] leading-9 md:leading-none font-extrabold">
             What they say about us
           </p>
-          <p className="text-xl text-[#C2C7DC]">
+          <p className="text-xl text-[#C2C7DC] px-4 md:px-0">
             Discover first-hand accounts from our clients, who experienced the
             transformative power of our creative solutions.
           </p>
