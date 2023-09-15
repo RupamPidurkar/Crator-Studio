@@ -37,12 +37,12 @@ const WorkComp = () => {
               </p>
             </div>
             <Link
-              to="/case"
-              className="relative w-fit  group lg:px-14 px-10  py-4 bg-[#1C1B23] rounded-full "
+              to="/services"
+              className="relative  group lg:px-14 px-10  py-4  rounded-full "
             >
               <span
-                className="md:absolute hidden md:left-12 lg:left-0 top-0 h-full w-14 z-0 bg-[#1C1B23] 
-            rounded-full group-hover:w-36 transition-all ease-in-out"
+                className="md:absolute md:left-2 lg:left-6 top-0 h-full w-14 z-0 bg-[#1C1B23] rounded-full 
+            group-hover:w-36 transition-all ease-in-out"
               ></span>
               <span className="z-11 relative">Case study</span>
             </Link>
