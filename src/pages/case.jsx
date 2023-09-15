@@ -7,6 +7,7 @@ import Something from "../components/Something";
 import img1 from "../assets/case-img-1.webp";
 import img2 from "../assets/case-img-2.webp";
 import img3 from "../assets/case-img-3.webp";
+import { Link } from "react-router-dom";
 
 const Case = () => {
   return (
@@ -122,7 +123,16 @@ const Case = () => {
               <p className="text-xl text-[#C2C7DC]">Unique monthly visitors</p>
             </div>
           </div>
-          <a href="#">Learn more</a>
+          <Link
+            to="/case"
+            className="relative  group lg:px-14 px-10  py-4  rounded-full "
+          >
+            <span
+              className="md:absolute md:left-2 lg:left-6 top-0 h-full w-14 z-0 bg-[#1C1B23] rounded-full 
+            group-hover:w-36 transition-all ease-in-out"
+            ></span>
+            <span className="z-11 relative">Learn more</span>
+          </Link>
         </div>
 
         {/******************************************************************** */}
