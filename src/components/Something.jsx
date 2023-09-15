@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Something = () => {
   return (
-    <div className="bg-inherit py-28 md:mx-4">
+    <div className="bg-inherit py-28 mx-4">
       <div
         className="flex flex-col md:flex-row justify-between items-center 
         md:mx-28 px-6 md:px-16 py-12 rounded-3xl gap-10 md:gap-0"
@@ -11,9 +11,8 @@ const Something = () => {
           background: "linear-gradient(110deg, #22202B 60%, #1F1B25 60%)",
         }}
       >
-        <div className=" md:w-1/2">
+        <div className=" md:w-1/2 ">
           <p className="md:text-5xl text-3xl font-extrabold text-center md:text-left">
-            {" "}
             {`Let's`} make something great together.
           </p>
         </div>
