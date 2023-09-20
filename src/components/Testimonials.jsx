@@ -3,6 +3,7 @@ import img1 from "../assets/Katy Perry.webp";
 import img2 from "../assets/Katy Perry 2.webp";
 import img3 from "../assets/Katy Perry 3.webp";
 import img4 from "../assets/Katy Perry 4.webp";
+import comma from "../images/inverted-commas.png";
 import Something from "./Something";
 const Testimonials = () => {
   return (
@@ -55,9 +56,13 @@ const Testimonials = () => {
 
           {/*********************************************************** */}
 
-          <div className="bg-[#22212A] px-8 py-12 flex flex-col items-center gap-8 h-full rounded-3xl">
-            <p>,,</p>
-            <p className="text-[#C2C7DC] text-xl  text-center">
+          <div className="relative bg-[#22212A] px-8 py-12 flex flex-col items-center gap-8 h-full rounded-3xl">
+            <img
+              src={comma}
+              alt=""
+              className="absolute z-0 opacity-50 top-[10px] left-5 h-40 "
+            />
+            <p className="text-[#C2C7DC] text-xl  text-center z-20">
               Working with Crator was a game-changer. Their creative vision
               truly amplified our {`brand's`} potential.
             </p>
@@ -72,7 +77,12 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div className="bg-[#22212A] px-8 py-12 flex flex-col items-center gap-8 h-full rounded-3xl">
+          <div className="relative bg-[#22212A] px-8 py-12 flex flex-col items-center gap-8 h-full rounded-3xl">
+            <img
+              src={comma}
+              alt=""
+              className="absolute z-0 opacity-50 top-[10px] left-5 h-40 "
+            />
             <p className="text-[#C2C7DC] text-xl  text-center">
               {`Crator's`} innovative design solutions played a key role in our{" "}
               {`product's`} successful launch.
@@ -88,7 +98,12 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div className="bg-[#22212A]  px-8 py-12 flex flex-col items-center gap-8 h-full rounded-3xl">
+          <div className="relative bg-[#22212A]  px-8 py-12 flex flex-col items-center gap-8 h-full rounded-3xl">
+            <img
+              src={comma}
+              alt=""
+              className="absolute z-0 opacity-50 top-[10px] left-5 h-40 "
+            />
             <p className="text-[#C2C7DC] text-xl text-center">
               {` Crator's`} team is exceptional. Their commitment to quality
               exceeded our highest expectations.
@@ -104,7 +119,12 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div className="bg-[#22212A] px-8 py-12 flex flex-col items-center gap-8 h-full rounded-3xl">
+          <div className="relative bg-[#22212A] px-8 py-12 flex flex-col items-center gap-8 h-full rounded-3xl">
+            <img
+              src={comma}
+              alt=""
+              className="absolute z-0 opacity-50 top-[10px] left-5 h-40 "
+            />
             <p className="text-[#C2C7DC] text-xl  text-center">
               From concept to execution, {`Crator's`} approach was seamlessly
               integrated and highly efficient.
