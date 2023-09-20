@@ -56,7 +56,10 @@ const Testimonials = () => {
 
           {/*********************************************************** */}
 
-          <div className="relative bg-[#22212A] px-8 py-12 flex flex-col items-center gap-8 h-full rounded-3xl">
+          <div
+            className="relative bg-[#22212A] px-8 py-12 flex flex-col 
+          items-center gap-8 h-full rounded-3xl"
+          >
             <img
               src={comma}
               alt=""
@@ -83,7 +86,7 @@ const Testimonials = () => {
               alt=""
               className="absolute z-0 opacity-50 top-[10px] left-5 h-40 "
             />
-            <p className="text-[#C2C7DC] text-xl  text-center">
+            <p className="text-[#C2C7DC] text-xl  text-center z-20">
               {`Crator's`} innovative design solutions played a key role in our{" "}
               {`product's`} successful launch.
             </p>
@@ -104,7 +107,7 @@ const Testimonials = () => {
               alt=""
               className="absolute z-0 opacity-50 top-[10px] left-5 h-40 "
             />
-            <p className="text-[#C2C7DC] text-xl text-center">
+            <p className="text-[#C2C7DC] text-xl text-center z-20">
               {` Crator's`} team is exceptional. Their commitment to quality
               exceeded our highest expectations.
             </p>
@@ -125,7 +128,7 @@ const Testimonials = () => {
               alt=""
               className="absolute z-0 opacity-50 top-[10px] left-5 h-40 "
             />
-            <p className="text-[#C2C7DC] text-xl  text-center">
+            <p className="text-[#C2C7DC] text-xl  text-center z-20">
               From concept to execution, {`Crator's`} approach was seamlessly
               integrated and highly efficient.
             </p>
