@@ -1,14 +1,14 @@
 import { useState } from "react";
-
+import { ROUTES } from "../routes";
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const nav_links = [
-    { name: "Home", link: "/" },
-    { name: "Services", link: "/services" },
-    { name: "About", link: "/about" },
-    { name: "Work", link: "/work" },
-    { name: "Case study", link: "/case" },
+    { name: "Home", link: ROUTES.HOME },
+    { name: "Services", link: ROUTES.SERVICES },
+    { name: "About", link: ROUTES.ABOUT },
+    { name: "Work", link: ROUTES.WORK },
+    { name: "Case study", link: ROUTES.CASE },
   ];
   let [open, setOpen] = useState(false);
   return (

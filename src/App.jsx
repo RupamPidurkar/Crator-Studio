@@ -6,18 +6,19 @@ import Work from "./pages/navwork";
 import Case from "./pages/case";
 import Layout from "./pages/layout";
 import Letstalk from "./pages/letstalk";
+import { ROUTES } from "./routes";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path={ROUTES.HOME} element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="services" element={<Services />} />
-          <Route path="work" element={<Work />} />
-          <Route path="case" element={<Case />} />
-          <Route path="connect" element={<Letstalk />} />
+          <Route path={ROUTES.ABOUT} element={<About />} />
+          <Route path={ROUTES.SERVICES} element={<Services />} />
+          <Route path={ROUTES.WORK} element={<Work />} />
+          <Route path={ROUTES.CASE} element={<Case />} />
+          <Route path={ROUTES.CONNECT} element={<Letstalk />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
@@ -28,5 +29,5 @@ const App = () => {
     </BrowserRouter>
   );
 };
-
+  
 export default App;

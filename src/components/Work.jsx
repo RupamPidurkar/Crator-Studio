@@ -8,7 +8,7 @@ const WorkComp = () => {
   return (
     <div id="work" className="md:px-28 md:py-12 h-full ">
       <div className="flex flex-col gap-6 items-center text-center px-4 md:px-60">
-        <p className="bg-gradient-to-r  from-[#333139] to-[#27232C] w-fit px-6 py-2 rounded-tl-2xl  rounded-r-2xl ">
+        <p className="bg-gradient-to-r  from-[#333139] to-[#27232C] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
           Our work
         </p>
         <p className="md:text-[54px] text-[30px] leading-9 md:leading-none font-extrabold">

@@ -56,6 +56,7 @@ const Testimonials = () => {
           {/*********************************************************** */}
 
           <div className="bg-[#22212A] px-8 py-12 flex flex-col items-center gap-8 h-full rounded-3xl">
+            <p>,,</p>
             <p className="text-[#C2C7DC] text-xl  text-center">
               Working with Crator was a game-changer. Their creative vision
               truly amplified our {`brand's`} potential.
